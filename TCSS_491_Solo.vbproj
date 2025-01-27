@@ -71,21 +71,22 @@
     <None Include=".vs\VSWorkspaceState.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MyCode\46.png" />
-    <Content Include="MyCode\Animator.js" />
-    <Content Include="MyCode\AssetManager.js" />
-    <Content Include="MyCode\GameEngine.js" />
-    <Content Include="MyCode\index.html" />
-    <Content Include="MyCode\main.js" />
-    <Content Include="MyCode\Neo Green Hill Zone.png" />
-    <Content Include="MyCode\Platform.js" />
-    <Content Include="MyCode\Scene.js" />
-    <Content Include="MyCode\Sonic title.png" />
-    <Content Include="MyCode\Sonic-curated.png" />
-    <Content Include="MyCode\Sonic.js" />
-    <Content Include="MyCode\Sonic.png" />
-    <Content Include="MyCode\Timer.js" />
-    <Content Include="MyCode\Util.js" />
+    <Content Include=".vs\GameEngine.js" />
+    <Content Include="46.png" />
+    <Content Include="Animator.js" />
+    <Content Include="AssetManager.js" />
+    <Content Include="GameEngine.js" />
+    <Content Include="index.html" />
+    <Content Include="main.js" />
+    <Content Include="Neo Green Hill Zone.png" />
+    <Content Include="Platform.js" />
+    <Content Include="Scene.js" />
+    <Content Include="Sonic title.png" />
+    <Content Include="Sonic-curated.png" />
+    <Content Include="Sonic.js" />
+    <Content Include="Sonic.png" />
+    <Content Include="Timer.js" />
+    <Content Include="Util.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".vs\TCSS_491_Solo\v17\" />

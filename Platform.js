@@ -14,7 +14,7 @@ class Platform {
             this.y += 3;
         } else if (time < 7) {
             this.x += 10;
-            this.y -= 3;
+            this.y -= 2.75;
         } else if (time < 11) {
             this.x += 10;
         } else if (time < 13) {
