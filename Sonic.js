@@ -49,12 +49,14 @@ class Sonic {
             this.state = 3;
             this.y -= 3;
         } else if (time < 7) {
-            this.y += 2;
+            if (this.y < this.initialY - 18 * PARAMS.SCALE) {
+                this.y += 3;
+            }
         } else if (time < 11) {
-            this.y = this.initialY - 20;
+            this.y = this.initialY;
             this.state = 2;
         } else if (time < 13) {
-            this.y = this.initialY - 5;
+            this.y = this.initialY;
             this.state = 1;
         } else if (time < 14) {
             this.y = this.initialY + 22;
