@@ -1,6 +1,7 @@
 class Platform {
     constructor(spritesheet, game, x, y) {
         Object.assign(this, { spritesheet, game, x, y });
+        this.initialY = this.y;
     };
 
     update() {
@@ -14,7 +15,9 @@ class Platform {
             this.y += 3;
         } else if (time < 7) {
             this.x += 10;
-            this.y -= 2.75;
+            if (this.y > this.initialY) {
+                this.y -= 3;
+            }
         } else if (time < 11) {
             this.x += 10;
         } else if (time < 13) {
